@@ -1,0 +1,40 @@
+{
+    "solution": {
+        "teamsAppTenantId": "5f8d9ded-e3b4-487a-8978-413dc6804a00",
+        "subscriptionId": "3e6fd60c-2cc0-42fb-af43-a83c16f93ca9",
+        "subscriptionName": "Visual Studio Enterprise Subscription – MPN",
+        "tenantId": "5f8d9ded-e3b4-487a-8978-413dc6804a00",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "MeetingAssist-Tab-V2",
+        "location": "West Europe",
+        "resourceNameSuffix": "26db5b",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "5f8d9ded-e3b4-487a-8978-413dc6804a00",
+        "teamsAppId": "aec6d7c6-36e1-4918-83e0-b228022c6f6a",
+        "teamsAppUpdatedAt": 1655232064754
+    },
+    "fx-resource-identity": {
+        "identityName": "helloworlddev26db5b",
+        "identityResourceId": "/subscriptions/3e6fd60c-2cc0-42fb-af43-a83c16f93ca9/resourceGroups/MeetingAssist-Tab-V2/providers/Microsoft.ManagedIdentity/userAssignedIdentities/helloworlddev26db5b",
+        "identityClientId": "3201134b-86a2-409f-a3e2-c8087facb545"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "dd7fd0c6-128e-4eff-92e7-3dcf167e986d",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "2b079d99-8bf0-4380-9c7a-03629d243d9c",
+        "oauth2PermissionScopeId": "7427a70f-59b2-4fca-a7b1-1d52e50ed4c4",
+        "tenantId": "5f8d9ded-e3b4-487a-8978-413dc6804a00",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/5f8d9ded-e3b4-487a-8978-413dc6804a00",
+        "applicationIdUris": "api://helloworlddev26db5btab.z6.web.core.windows.net/dd7fd0c6-128e-4eff-92e7-3dcf167e986d",
+        "frontendEndpoint": "https://helloworlddev26db5btab.z6.web.core.windows.net"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "helloworlddev26db5btab.z6.web.core.windows.net",
+        "endpoint": "https://helloworlddev26db5btab.z6.web.core.windows.net",
+        "indexPath": "/index.html#",
+        "storageResourceId": "/subscriptions/3e6fd60c-2cc0-42fb-af43-a83c16f93ca9/resourceGroups/MeetingAssist-Tab-V2/providers/Microsoft.Storage/storageAccounts/helloworlddev26db5btab"
+    }
+}
